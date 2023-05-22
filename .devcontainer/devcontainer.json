@@ -1,0 +1,14 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Share CAD",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"extensions": [
+		"amazonwebservices.aws-toolkit-vscode", // AWS
+		"dbaeumer.vscode-eslint", // ESLint
+		"GitHub.copilot-nightly", // GitHub Copilot
+		"esbenp.prettier-vscode", // Prettier
+	],
+  "remoteUser": "node"
+}
